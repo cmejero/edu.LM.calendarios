@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+
+.cabecera1{
+	border: 1px solid rgb(210, 210, 210);
+	border-style: solid solid none solid;
+	background-color: rgb(210, 210, 210);
+	color: white;
+	font-size: 30px;
+	
+	
+}
+
+ .borde1{
+	border: 1px solid rgb(210, 210, 210); 
+	border-style: none solid none solid;
+	font-size: 14px;
+	text-align: center;
+	
+ }
+ 
+ .borde1__xarriba{
+	border: 1px solid rgb(210, 210, 210); 
+	border-style: none solid solid solid;
+	font-size: 14px;
+	text-align: center;
+	}
+	
+.borde1__xabajo{
+	border: 1px solid rgb(210, 210, 210); 
+	border-style: solid solid none solid;
+	font-size: 14px;
+	text-align: center;
+	}
+	
+.borde1__color{
+	border: 1px solid rgb(210, 210, 210); 
+	border-style: none solid none solid;
+	background-color: rgb(219, 219, 219);
+	font-size: 14px;
+	text-align: center;
+	}
+	
+.borde1__xarriba--color{
+	border: 1px solid rgb(210, 210, 210); 
+	border-style: none solid solid solid;
+	background-color: rgb(219, 219, 219);
+	font-size: 14px;
+	text-align: center;
+	}
+	
+	table{
+		border-collapse: collapse;
+		width: 245px;
+        height: 140px;
+	}
+	
