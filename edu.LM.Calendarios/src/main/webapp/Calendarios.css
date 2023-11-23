@@ -1,12 +1,23 @@
 @charset "UTF-8";
 
 
+.contenedor{
+border: 1px solid black;
+margin: left;
+width: 262px;
+height: 198px;
+background-color: white;
+overflow: auto;
+}
+
 .cabecera1{
-	border: 1px solid rgb(210, 210, 210);
-	border-style: solid solid none solid;
+	border: 8px solid rgb(210, 210, 210);
+	border-style: solid solid solid solid;	
 	background-color: rgb(210, 210, 210);
 	color: white;
-	font-size: 30px;
+	font-size: 18px;
+	word-spacing: 10px;
+	letter-spacing: 8px;
 	
 	
 }
@@ -32,6 +43,12 @@
 	font-size: 14px;
 	text-align: center;
 	}
+	.borde1__xabajo--arriba{
+	border: 1px solid rgb(210, 210, 210); 
+	border-style: none solid none solid;
+	font-size: 14px;
+	text-align: center;
+	}
 	
 .borde1__color{
 	border: 1px solid rgb(210, 210, 210); 
@@ -53,5 +70,121 @@
 		border-collapse: collapse;
 		width: 245px;
         height: 140px;
+        
+        
+        
+        
+	}
+	.cabecera2{
+		border: 8px solid black;
+		background-color: black;
+		border-style: solid solid solid none;				
+		font-size: 16px;		
+	    letter-spacing: 8px;
+		color: white	
+		
+	}
+	.borde2__xabajo{
+	border: 1px solid black;
+	border-style: solid solid none solid;
+	font-size: 14px;
+	text-align: center;
+	}
+	.borde2__xabajo--color{
+	border: 1px solid black;
+	border-style: solid solid none solid;
+	background-color: rgb(191, 191, 191);
+	font-size: 14px;
+	text-align: center;
+	}
+	.borde2__xarriba{
+	border: 1px solid black; 
+	border-style: none solid solid solid;
+	font-size: 14px;
+	text-align: center;
+	}
+	.borde2__xarriba--color{
+	border: 1px solid black; 
+	border-style: none solid solid solid;
+	background-color: rgb(191, 191, 191);;
+	font-size: 14px;
+	text-align: center;
+	}
+	.borde2{
+	border: 1px solid black;
+	border-style: none solid none solid;
+	font-size: 14px;
+	text-align: center;
+	}
+	.borde2__color{
+	border: 1px solid black;
+	border-style: none solid none solid;
+	background-color: rgb(191, 191, 191);;
+	font-size: 14px;
+	text-align: center;
 	}
 	
+	
+	
+	
+	.cabecera3{
+		background-color: rgb(247, 197, 91);
+		border-style: solid solid solid solid;	
+		border: 1px solid rgb(247, 197, 91);	
+		margin: auto auto 0.4em;
+		font-size: 18px;
+		word-spacing: 15px;
+	    letter-spacing: 12px;
+		color: white	
+	}
+	.borde3{
+	border: 1px solid black;
+	border-style: solid solid solid solid;
+	font-size: 14px;
+	text-align: center;	
+	}
+	.borde3__tamaño{
+	border: 1px solid black;
+	border-style: solid solid solid solid;
+	font-size: 14px;
+	text-align: center;
+	width: 25px;
+	height: 27px;
+	}
+	
+	.borde3__naranja1{
+	border: 1px solid black;
+	border-style: solid solid solid solid;
+	background-color: rgb(255, 146, 36);
+	font-size: 14px;
+	text-align: center;
+	}
+	.borde3__naranja1--tamaño{
+	border: 1px solid black;
+	border-style: solid solid solid solid;
+	background-color: rgb(255, 146, 36);
+	font-size: 14px;
+	text-align: center;
+	width: 25px;
+	height: 27px;
+	}
+	
+	.borde3__naranja2{
+	border: 1px solid black;
+	border-style: solid solid solid solid;
+	background-color: rgb(251, 197, 85);
+	font-size: 14px;
+	text-align: center;
+	
+	}
+	.borde3__naranja3{
+	border: 1px solid black;
+	border-style: solid solid solid solid;
+	background-color: rgb(255, 222, 145);	
+	font-size: 14px;
+	text-align: center;
+	/*opacity: 0.5;*/
+	}
+	p{
+		backdrop-filter: opacity(0.5);
+	}
